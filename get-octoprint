@@ -1,0 +1,5 @@
+git clone git@github.com:OctoPrint/octoprint-docker.git
+cd octoprint-docker
+vim docker-compose.yaml and edit it
+docker-compose up  -d
+docker logs <container-id>
